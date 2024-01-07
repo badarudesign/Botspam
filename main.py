@@ -70,6 +70,6 @@ def num(message):
 @bot.callback_query_handler(func=lambda call: call.data == 'click')
 def all(call):
   bot.send_message(call.message.chat.id,'''Bot programmer: @cyberooze
-Bot programmer channel: @Kerala_Bots**''')
+Bot programmer channel: @Kerala_Bots''')
 
 bot.infinity_polling()
